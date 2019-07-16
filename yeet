@@ -1,0 +1,17 @@
+#string
+name = 'shahryaar'
+#int
+age = 12 
+food = input('what is your favorite food?')
+print(food)
+sport = input('what is your favorite sport')
+print = (sport)
+foodList = []
+while True:
+      foo = input ('what foods do you like?')
+      if foo == "q":
+          break
+      else:
+           foodList.append(foo)
+for x in foodList:
+    print (x)
